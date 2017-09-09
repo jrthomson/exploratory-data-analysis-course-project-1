@@ -33,7 +33,7 @@ png("plot3.png", height = 480, width = 480)
 plot(datetime, submeter1, type = "l", ylab = "Energy Submetering", xlab = "")
 lines(datetime, submeter2, type = "l", col = "red")
 lines(datetime, submeter3, type = "l", col = "blue")
-legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col=c("black", "red", "blue"), lwd = 1)
+legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col = c("black", "red", "blue"), lwd = 1)
 
 # Shut down the current device
 
